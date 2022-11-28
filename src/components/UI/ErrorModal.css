@@ -1,0 +1,27 @@
+.modal-screen {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.modal-body {
+    position: fixed;
+    background-color: white;
+    width: 30em;
+    padding: 15px 15px;
+    z-index: 30000;
+    top: 30%;
+}
+
+.modal-body h2 {
+    color: red;
+    margin: 0;
+    padding: 0 15px;
+}
+.message {
+    padding: 15px;
+}

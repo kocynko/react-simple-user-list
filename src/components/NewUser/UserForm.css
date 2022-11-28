@@ -1,0 +1,17 @@
+.userForm h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.userForm input {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 50%;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    margin: 15px auto;
+}
+
+
