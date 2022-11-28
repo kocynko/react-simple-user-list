@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/simple-user-list-react/',
+  base: '/react-simple-user-list/',
   plugins: [react()]
 })
