@@ -10,11 +10,10 @@
 
 .modal-body {
     position: fixed;
-    background-color: white;
-    width: 30em;
-    padding: 15px 15px;
     z-index: 30000;
-    top: 30%;
+    margin: 0;
+    top: 33%;
+    left: 32.25%;
 }
 
 .modal-body h2 {

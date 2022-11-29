@@ -58,8 +58,9 @@ const UserForm = ({ onCreateUser }) => {
     setShowModal(!showModal);
   };
 
+
   return (
-    <div>
+    <>
       {showModal && (
         <ErrorModal
           message={message}
@@ -83,7 +84,7 @@ const UserForm = ({ onCreateUser }) => {
           <Button type="submit">Add</Button>
         </form>
       </Card>
-    </div>
+    </>
   );
 };
 

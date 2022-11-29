@@ -24,16 +24,9 @@ function App() {
     setUsers([...users, newUser]);
   };
 
-  const [showErrorModal, setShowErrorModal] = useState('false');
-
-  const showModalHandler = () => {};
-
   return (
     <div className="App">
-      <NewUser
-        addUserHandler={addUser}
-        onShowModal={() => console.log('hello')}
-      />
+      <NewUser addUserHandler={addUser} />
       <UserList users={users} />
     </div>
   );
